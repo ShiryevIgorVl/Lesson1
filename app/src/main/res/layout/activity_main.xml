@@ -1,43 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/start"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#0C0C0C"
+    android:backgroundTintMode="add"
+    android:clickable="true"
+    android:clipChildren="true"
+    android:clipToPadding="true"
+    android:keyboardNavigationCluster="true"
+    android:visibility="visible"
     tools:context=".MainActivity"
     tools:visibility="visible">
 
-    <Button
-        android:id="@+id/go"
-        android:layout_width="164dp"
-        android:layout_height="90dp"
-        android:clickable="true"
-        android:text="Go"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="507dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/start"
-        android:layout_width="164dp"
-        android:layout_height="90dp"
-        android:layout_marginEnd="204dp"
-        android:clickable="true"
-        android:text="Start"
-        android:visibility="visible"
+    <SearchView
+        android:id="@+id/searchTheCity"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#222121"
+        android:backgroundTint="#2C2A2A"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="85dp" />?/>
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="74dp" />
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="284dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:tint="#FFEBEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_mylocation" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="16dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="20dp"
+        android:background="#28FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="173dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
