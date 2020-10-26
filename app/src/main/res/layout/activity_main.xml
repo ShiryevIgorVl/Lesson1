@@ -20,6 +20,7 @@
         android:layout_height="60dp"
         android:background="#222121"
         android:backgroundTint="#2C2A2A"
+        android:contextClickable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,10 +63,26 @@
     <View
         android:id="@+id/view"
         android:layout_width="350dp"
-        android:layout_height="500dp"
+        android:layout_height="431dp"
         android:layout_marginStart="20dp"
         android:background="#28FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="173dp" />
+        tools:layout_editor_absoluteY="242dp" />
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:autoSizeTextType="uniform"
+        android:background="#3CFFFFFF"
+        android:text="Погода в регионе"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FDFFEBEE"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:textLocale="ru"
+        tools:layout_editor_absoluteY="155dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
