@@ -4,17 +4,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/ConstraintLayout"
+    >
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="16dp"
         android:text="@string/textView"
-        android:textSize="20sp"
+        android:textSize="24sp"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/search_city"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="34dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <EditText
@@ -38,6 +45,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="60dp"
+        android:background="@color/view"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -53,7 +61,9 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Санкт-Петербург" />
+                android:text="Санкт-Петербург"
+                android:textColor="@color/colorAccent"
+                />
 
             <EditText
                 android:id="@+id/editTextTextPersonName2"
@@ -61,7 +71,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Москва" />
+                android:text="Москва"
+                android:textColor="@color/colorAccent"/>
 
             <EditText
                 android:id="@+id/editTextTextPersonName3"
@@ -69,7 +80,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Новосибирск" />
+                android:text="Новосибирск"
+                android:textColor="@color/colorAccent"/>
 
             <EditText
                 android:id="@+id/editTextTextPersonName4"
@@ -77,7 +89,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Казань" />
+                android:text="Казань"
+                android:textColor="@color/colorAccent"/>
 
             <EditText
                 android:id="@+id/editTextTextPersonName5"
@@ -85,7 +98,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Волгоград" />
+                android:text="Волгоград"
+                android:textColor="@color/colorAccent"/>
 
             <EditText
                 android:id="@+id/editTextTextPersonName6"
@@ -93,7 +107,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Пермь" />
+                android:text="Пермь"
+                android:textColor="@color/colorAccent"/>
 
             <EditText
                 android:id="@+id/editTextTextPersonName7"
@@ -101,7 +116,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Киров" />
+                android:text="Киров"
+                android:textColor="@color/colorAccent"/>
         </LinearLayout>
     </ScrollView>
 
