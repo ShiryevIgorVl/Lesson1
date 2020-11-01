@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="mainText">
-        Погода в регионе
+    <string name="button">
+        Выбор города
     </string>
+
+    <string name="button2">
+        1 сутки
+    </string>
+
+    <string name="button3">
+        5 суток
+    </string>
+
+    <string name="textView2">
+        Прогноз погоды
+    </string>
+
+
+
 </resources>
