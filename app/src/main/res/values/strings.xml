@@ -5,5 +5,13 @@
     <string name="button3">5 суток</string>
     <string name="textView2">Прогноз погоды</string>
     <string name="textView">Выбор города</string>
+    <string name="editTextTextPersonName">Санкт-Петербург</string>
+    <string name="editTextTextPersonName2">Москва</string>
+    <string name="editTextTextPersonName3">Новосибирск</string>
+    <string name="editTextTextPersonName4">Пермь</string>
+    <string name="editTextTextPersonName5">Омск</string>
+    <string name="editTextTextPersonName6">Нижний Новгород</string>
+    <string name="editTextTextPersonName7">Киров</string>
+
 
 </resources>

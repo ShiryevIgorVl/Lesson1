@@ -9,46 +9,17 @@
     >
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/textView"
-        android:textSize="24sp"
-        android:textColor="@color/colorAccent"
-        app:layout_constraintBottom_toTopOf="@+id/search_city"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <EditText
-        android:id="@+id/search_city"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="50dp"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="320dp"
-        android:layout_height="550dp"
+        android:layout_height="400dp"
         android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginBottom="60dp"
         android:background="@color/view"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -61,9 +32,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Санкт-Петербург"
-                android:textColor="@color/colorAccent"
-                />
+                android:text="@string/editTextTextPersonName"
+                android:textColor="@color/colorAccent" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName2"
@@ -71,8 +41,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Москва"
-                android:textColor="@color/colorAccent"/>
+                android:text="@string/editTextTextPersonName2"
+                android:textColor="@color/colorAccent" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName3"
@@ -80,8 +50,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Новосибирск"
-                android:textColor="@color/colorAccent"/>
+                android:text="@string/editTextTextPersonName3"
+                android:textColor="@color/colorAccent" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName4"
@@ -89,8 +59,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Казань"
-                android:textColor="@color/colorAccent"/>
+                android:text="@string/editTextTextPersonName4"
+                android:textColor="@color/colorAccent" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName5"
@@ -98,8 +68,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Волгоград"
-                android:textColor="@color/colorAccent"/>
+                android:text="@string/editTextTextPersonName5"
+                android:textColor="@color/colorAccent" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName6"
@@ -107,8 +77,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Пермь"
-                android:textColor="@color/colorAccent"/>
+                android:text="@string/editTextTextPersonName6"
+                android:textColor="@color/colorAccent" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName7"
@@ -116,9 +86,23 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Киров"
-                android:textColor="@color/colorAccent"/>
+                android:text="@string/editTextTextPersonName7"
+                android:textColor="@color/colorAccent" />
         </LinearLayout>
     </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/button"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
