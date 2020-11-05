@@ -26,68 +26,61 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/editTextTextPersonName"
+            <CheckBox
+                android:id="@+id/checkBox2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="@string/editTextTextPersonName"
-                android:textColor="@color/colorAccent" />
+                android:text="@string/checkBox2"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
 
-            <EditText
-                android:id="@+id/editTextTextPersonName2"
+            <CheckBox
+                android:id="@+id/checkBox3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="@string/editTextTextPersonName2"
-                android:textColor="@color/colorAccent" />
+                android:text="@string/checkBox3"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"/>
 
-            <EditText
-                android:id="@+id/editTextTextPersonName3"
+            <CheckBox
+                android:id="@+id/checkBox4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="@string/editTextTextPersonName3"
-                android:textColor="@color/colorAccent" />
+                android:text="@string/checkBox4"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"/>
 
-            <EditText
-                android:id="@+id/editTextTextPersonName4"
+            <CheckBox
+                android:id="@+id/checkBox5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="@string/editTextTextPersonName4"
-                android:textColor="@color/colorAccent" />
+                android:text="@string/checkBox5"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"/>
 
-            <EditText
-                android:id="@+id/editTextTextPersonName5"
+            <CheckBox
+                android:id="@+id/checkBox6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="@string/editTextTextPersonName5"
-                android:textColor="@color/colorAccent" />
+                android:text="@string/checkBox6"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"/>
 
-            <EditText
-                android:id="@+id/editTextTextPersonName6"
+            <CheckBox
+                android:id="@+id/checkBox7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="@string/editTextTextPersonName6"
-                android:textColor="@color/colorAccent" />
+                android:text="@string/checkBox7"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"/>
 
-            <EditText
-                android:id="@+id/editTextTextPersonName7"
+            <CheckBox
+                android:id="@+id/checkBox8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="@string/editTextTextPersonName7"
-                android:textColor="@color/colorAccent" />
+                android:text="@string/checkBox8"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"/>
         </LinearLayout>
     </ScrollView>
 
