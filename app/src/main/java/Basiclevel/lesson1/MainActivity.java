@@ -8,9 +8,10 @@ import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Constant{
 
     private int counter = 0;
 
@@ -19,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        if(getIntent().getExtras().getString(sityCheckBox2) != null) {
+            String nameSity = getIntent().getExtras().getString(sityCheckBox2);
+            TextView textView = (TextView) findViewById(R.id.view);
+            textView.setText(nameSity);
+        }
 
         Button citySelect = (Button) findViewById(R.id.button);
         citySelect.setOnClickListener(new View.OnClickListener() {
@@ -30,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
 
     }
 
