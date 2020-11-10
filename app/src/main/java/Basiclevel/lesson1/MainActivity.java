@@ -21,10 +21,11 @@ public class MainActivity extends AppCompatActivity implements Constant{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if(getIntent().getExtras().getString(sityCheckBox2) != null) {
+        Bundle arguments = getIntent().getExtras();
+        if(arguments != null) {
             String nameSity = getIntent().getExtras().getString(sityCheckBox2);
             TextView textView = (TextView) findViewById(R.id.view);
-            textView.setText(nameSity);
+            textView.setText(nameSity + ":" + "\nВетер северо-западный " + "\nТемпература 9 градусов ");
         }
 
         Button citySelect = (Button) findViewById(R.id.button);
@@ -37,8 +38,6 @@ public class MainActivity extends AppCompatActivity implements Constant{
 
             }
         });
-
-
 
     }
 

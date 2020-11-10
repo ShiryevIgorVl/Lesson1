@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="button">
-        Выбор города
-    </string>
-
-    <string name="button2">
-        1 сутки
-    </string>
-
-    <string name="button3">
-        5 суток
-    </string>
-
-    <string name="textView2">
-        Прогноз погоды
-    </string>
-
+    <string name="app_name">Прогноз погоды</string>
+    <string name="button">Выбор города</string>
+    <string name="button2">1 сутки</string>
+    <string name="button3">5 суток</string>
+    <string name="textView2">Прогноз погоды</string>
+    <string name="textView">Выбор города</string>
+    <string name="checkBox2">Санкт-Петербург</string>
+    <string name="checkBox3">Москва</string>
+    <string name="checkBox4">Новосибирск</string>
+    <string name="checkBox5">Пермь</string>
+    <string name="checkBox6">Омск</string>
+    <string name="checkBox7">Нижний Новгород</string>
+    <string name="checkBox8">Киров</string>
 
 
 </resources>

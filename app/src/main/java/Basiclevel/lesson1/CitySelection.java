@@ -20,8 +20,6 @@ public class CitySelection extends AppCompatActivity implements Constant{
     private EditText messageEditText;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,10 +42,6 @@ public class CitySelection extends AppCompatActivity implements Constant{
 
             }
         });
-
-
-
-
 
     }
 
